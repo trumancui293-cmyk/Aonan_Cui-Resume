@@ -1,0 +1,1026 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="崔奡楠 — 中国传媒大学广告学 · AI 内容运营">
+  <title>崔奡楠 · 个人主页</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&family=Noto+Sans+SC:wght@400;500&family=ZCOOL+KuaiLe&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css?v=19">
+</head>
+<body>
+  <div class="app">
+    <aside class="sidebar" aria-label="主导航">
+      <div class="sidebar__profile">
+        <img class="sidebar__avatar" src="assets/avatar.png?v=2" alt="崔奡楠">
+        <div>
+          <p class="sidebar__name">崔奡楠</p>
+          <p class="sidebar__role">广告学 · 内容运营</p>
+        </div>
+      </div>
+      <nav class="sidebar__nav">
+        <a href="#home" class="sidebar__link sidebar__link--active" data-nav="home">
+          <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 6.5L8 2l6 4.5V13a1 1 0 01-1 1H3a1 1 0 01-1-1V6.5z"/></svg>首页
+        </a>
+        <a href="#about" class="sidebar__link" data-nav="about">
+          <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="8" cy="5.5" r="2.5"/><path d="M3 14c0-2.8 2.2-5 5-5s5 2.2 5 5"/></svg>介绍
+        </a>
+        <a href="#education" class="sidebar__link" data-nav="education">
+          <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 6l6-3 6 3-6 3-6-3z"/></svg>教育
+        </a>
+        <a href="#campus" class="sidebar__link" data-nav="campus">
+          <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="3" width="12" height="10" rx="1.5"/></svg>校园
+        </a>
+        <a href="#projects" class="sidebar__link" data-nav="projects">
+          <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 4h10M3 8h10M3 12h6"/></svg>经历
+        </a>
+        <a href="#contact" class="sidebar__link" data-nav="contact">
+          <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 4l6 4 6-4"/></svg>联系
+        </a>
+      </nav>
+      <div class="sidebar__footer">
+        <p>&copy; 2026 崔奡楠<br>3425677079@qq.com</p>
+        <svg class="sidebar__doodle" width="48" height="20" viewBox="0 0 48 20" fill="none" stroke="#d4a853" stroke-width="1.5"><path d="M4 10h40M24 4v12"/></svg>
+      </div>
+    </aside>
+
+    <header class="mobile-header">
+      <span class="mobile-header__brand">崔奡楠</span>
+      <button class="mobile-header__toggle" id="mobileToggle" aria-label="菜单" aria-expanded="false">
+        <svg width="18" height="18" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 5h10M3 8h10M3 11h10"/></svg>
+      </button>
+    </header>
+    <nav class="mobile-nav" id="mobileNav">
+      <div class="mobile-nav__links">
+        <a href="#home" class="mobile-nav__link mobile-nav__link--active" data-nav="home">首页</a>
+        <a href="#about" class="mobile-nav__link" data-nav="about">介绍</a>
+        <a href="#education" class="mobile-nav__link" data-nav="education">教育</a>
+        <a href="#campus" class="mobile-nav__link" data-nav="campus">校园</a>
+        <a href="#projects" class="mobile-nav__link" data-nav="projects">经历</a>
+        <a href="#contact" class="mobile-nav__link" data-nav="contact">联系</a>
+      </div>
+    </nav>
+
+    <div class="main">
+      <div class="content">
+
+        <!-- 首页 -->
+        <section class="panel panel--active" id="home" data-title="首页">
+          <div class="hero">
+            <div>
+              <p class="panel__eyebrow">✎ Portfolio</p>
+              <h1 class="hero__title">崔<em>奡</em>楠</h1>
+              <p class="hero__sub">27届广告学 · AI 内容运营</p>
+              <p class="hero__meta">北京 · 21 岁 · 中国传媒大学</p>
+              <p class="hero__text">熟悉 AIGC 内容生态，擅长从选题策划到数据复盘的全链路内容运营。</p>
+              <div class="hero-actions">
+                <button class="btn btn--primary" data-goto="projects">看看经历 →</button>
+                <button class="btn btn--ghost" data-goto="contact">联系我</button>
+              </div>
+            </div>
+            <div class="hero__photo">
+              <img src="assets/hero-photo.png" alt="崔奡楠">
+              <span class="hero__tag">中传在读</span>
+            </div>
+          </div>
+          <div class="stats">
+            <div class="stat">
+              <p class="stat__num">2w+</p>
+              <p class="stat__label">AI 粉丝增长</p>
+              <p class="stat__hint">AI选题+短视频运营3个月自然增量</p>
+            </div>
+            <div class="stat">
+              <p class="stat__num">40+</p>
+              <p class="stat__label">创作者管理</p>
+              <p class="stat__hint">统筹垂类达人，对接内容与商单</p>
+            </div>
+            <div class="stat">
+              <p class="stat__num">3.72</p>
+              <p class="stat__label">GPA</p>
+              <p class="stat__hint">中国传媒大学广告学专业绩点</p>
+            </div>
+          </div>
+          <div class="home-bottom">
+            <div class="home-mascot" aria-hidden="true">
+              <img src="assets/home-mascot.png" alt="">
+            </div>
+            <div class="home-strengths">
+              <p class="home-strengths__title">个人优势</p>
+              <ol class="home-strengths__list">
+                <li>逻辑条理清晰，做事目标明确，擅长复盘优化方案</li>
+                <li>学习适应力强，能快速掌握各类 AI 工具并落地到业务场景</li>
+                <li>沟通高效得体，对接达人与团队协作时兼顾多方诉求</li>
+                <li>执行力踏实靠谱，从选题到交付可独立走完内容全流程</li>
+                <li>细节把控严谨，重视作品呈现，善于梳理沉淀项目成果</li>
+                <li>抗压能力良好，多任务并行时依然可以保证进度与质量</li>
+              </ol>
+            </div>
+          </div>
+        </section>
+
+        <!-- 介绍 -->
+        <section class="panel" id="about" data-title="个人介绍">
+          <header class="panel__header">
+            <p class="panel__eyebrow">About</p>
+            <h2 class="panel__title">个人介绍</h2>
+            <p class="panel__desc">点击卡片展开，查看完整能力与荣誉。</p>
+            <p class="panel__hint">👆 点击 + 展开详情</p>
+            <div class="panel-mascot-wrap" aria-hidden="true">
+              <div class="panel-mascot__bubble">
+                <p class="panel-mascot__text" data-bubble-text="点 + 展开卡片，了解我的内容运营能力"></p>
+              </div>
+              <div class="panel-mascot">
+                <img src="assets/mascot-laptop.png" alt="">
+              </div>
+            </div>
+          </header>
+          <div class="fold-list fold-list--accordion">
+            <details class="fold">
+              <summary class="fold__summary">
+                <div>
+                  <div class="fold__top"><span class="fold__tag">Core</span></div>
+                  <h3 class="fold__title">AI 内容运营</h3>
+                  <p class="fold__teaser">字节跳动 AI 产品运营，熟悉 AIGC 生态与数据复盘。</p>
+                </div>
+                <span class="fold__arrow">+</span>
+              </summary>
+              <div class="fold__body">
+                <div class="platform-showcase platform-showcase--portrait">
+                  <div class="platform-showcase__group">
+                    <p class="platform-showcase__label platform-showcase__label--xhs">小云雀 AI 账号运营</p>
+                    <div class="platform-showcase__grid">
+                      <figure class="project-showcase__item">
+                        <img src="assets/xiaoque-xhs-profile.png" alt="小云雀 AI 小红书账号主页">
+                        <figcaption>小红书 · 3,314 粉丝</figcaption>
+                      </figure>
+                      <figure class="project-showcase__item">
+                        <img src="assets/xiaoque-douyin-profile.png" alt="小云雀 AI 抖音账号主页">
+                        <figcaption>抖音 · 12.6 万粉丝</figcaption>
+                      </figure>
+                    </div>
+                  </div>
+                </div>
+                <ul class="detail-list">
+                  <li>在字节跳动（火山引擎）参与 AI 产品内容运营，熟悉 AIGC 内容生态</li>
+                  <li>具备 AI 相关创作者筛选、选题策划与发布后复盘能力</li>
+                  <li>参与「小云雀」AI 工具内容场景策划，将技术能力转化为用户可感知场景</li>
+                </ul>
+              </div>
+            </details>
+            <details class="fold fold--coral">
+              <summary class="fold__summary">
+                <div>
+                  <div class="fold__top"><span class="fold__tag fold__tag--coral">Core</span></div>
+                  <h3 class="fold__title">创作者运营</h3>
+                  <p class="fold__teaser">对接 10+ 创作者，熟悉脚本沟通与推广节奏。</p>
+                </div>
+                <span class="fold__arrow">+</span>
+              </summary>
+              <div class="fold__body">
+                <p class="detail-subheading">蓝色光标实习期间跟进的达人合作商稿（联想 moto）</p>
+                <div class="creator-grid creator-grid--compact">
+                  <figure class="creator-grid__item">
+                    <img src="assets/creator-collab-1.png" alt="@小新数码评测 moto X70 Air 商稿">
+                    <figcaption>@小新数码评测</figcaption>
+                  </figure>
+                  <figure class="creator-grid__item">
+                    <img src="assets/creator-collab-2.png" alt="@涛哥爱拆机 moto X70 Air 商稿">
+                    <figcaption>@涛哥爱拆机</figcaption>
+                  </figure>
+                  <figure class="creator-grid__item">
+                    <img src="assets/creator-collab-3.png" alt="@良心评测 moto X70 Air 商稿">
+                    <figcaption>@良心评测</figcaption>
+                  </figure>
+                </div>
+                <ul class="detail-list">
+                  <li>对接 10+ 位创作者，熟悉脚本沟通、内容把控与推广节奏</li>
+                  <li>在蓝色光标负责 40+ 创作者从脚本审核到成片交付的全流程跟进</li>
+                  <li>制定内容排期，协调创作者、设计、运营多方保障按时产出</li>
+                </ul>
+              </div>
+            </details>
+            <details class="fold fold--sage">
+              <summary class="fold__summary">
+                <div>
+                  <div class="fold__top"><span class="fold__tag fold__tag--sage">Creative</span></div>
+                  <h3 class="fold__title">编导与创意能力</h3>
+                  <p class="fold__teaser">读书周宣传片总编导 · 校内平台 1 万+ 互动</p>
+                </div>
+                <span class="fold__arrow">+</span>
+              </summary>
+              <div class="fold__body">
+                <div class="reading-week-showcase">
+                  <figure class="reading-week-showcase__item">
+                    <img src="assets/reading-week-2024.png" alt="2024 春季读书周宣传片《珍惜春光 好好做个读书人》">
+                    <figcaption>2024 · 珍惜春光，好好做个读书人</figcaption>
+                  </figure>
+                  <figure class="reading-week-showcase__item">
+                    <img src="assets/reading-week-2025.png" alt="2025 春季读书周宣传片《阅读不止 步履不停》">
+                    <figcaption>2025 · 阅读不止，步履不停</figcaption>
+                  </figure>
+                </div>
+                <ul class="detail-list">
+                  <li>担任中传广告学院 24/25 读书周宣传片总编导与剪辑</li>
+                  <li>广告学院创意创作中心影像组核心成员，负责校级活动拍摄及后期</li>
+                  <li>为学院奖、大广赛等赛事提供视频调色与剪辑支持，提升视觉表现力</li>
+                </ul>
+              </div>
+            </details>
+            <details class="fold fold--mustard">
+              <summary class="fold__summary">
+                <div>
+                  <div class="fold__top"><span class="fold__tag fold__tag--mustard">Data</span></div>
+                  <h3 class="fold__title">评估体系与数据闭环</h3>
+                  <p class="fold__teaser">追踪曝光、互动、转化，基于数据调整策略</p>
+                </div>
+                <span class="fold__arrow">+</span>
+              </summary>
+              <div class="fold__body">
+                <ul class="detail-list">
+                  <li>追踪曝光、互动、转化等核心指标，拆解可量化评估维度</li>
+                  <li>管理创作者内容数据复盘闭环，输出复盘报告识别短板并优化策略</li>
+                  <li>以数据驱动社区运营方案迭代，将流量转化为可执行运营计划</li>
+                </ul>
+              </div>
+            </details>
+            <details class="fold">
+              <summary class="fold__summary">
+                <div>
+                  <div class="fold__top"><span class="fold__tag">Skills</span></div>
+                  <h3 class="fold__title">技能与工具</h3>
+                  <p class="fold__teaser">剪映 · Premiere · 达芬奇 · AI 工具 · 语言证书</p>
+                </div>
+                <span class="fold__arrow">+</span>
+              </summary>
+              <div class="fold__body">
+                <p class="detail-subheading">软件技能</p>
+                <div class="tag-row">
+                  <span class="tag">剪映</span><span class="tag">Premiere</span><span class="tag">Photoshop</span><span class="tag">达芬奇</span>
+                  <span class="tag">Midjourney</span><span class="tag">ChatGPT</span><span class="tag">小云雀</span>
+                  <span class="tag">即梦</span><span class="tag">Suno</span>
+                </div>
+                <p class="detail-subheading">语言与证书</p>
+                <div class="tag-row">
+                  <span class="tag">CET-4</span><span class="tag">CET-6（550+）</span><span class="tag">IELTS 6.5</span>
+                  <span class="tag">达芬奇调色证书</span>
+                </div>
+              </div>
+            </details>
+            <details class="fold fold--coral">
+              <summary class="fold__summary">
+                <div>
+                  <div class="fold__top"><span class="fold__tag fold__tag--coral">Honor</span></div>
+                  <h3 class="fold__title">荣誉</h3>
+                  <p class="fold__teaser">GBI 发文 · 空英杯 · 国际文化节优秀工作人员</p>
+                </div>
+                <span class="fold__arrow">+</span>
+              </summary>
+              <div class="fold__body">
+                <ul class="detail-list">
+                  <li>《GBI 国际品牌观察》发表文章</li>
+                  <li>「空英杯」全国大学生英语竞赛二等奖</li>
+                  <li>「商务英语竞赛」全国预赛二等奖</li>
+                  <li>2025 国际文化节优秀工作人员</li>
+                  <li>「中国科技品牌的科技叙事策略研究」项目立项证书</li>
+                </ul>
+              </div>
+            </details>
+          </div>
+        </section>
+
+        <!-- 教育 -->
+        <section class="panel" id="education" data-title="教育经历">
+          <header class="panel__header">
+            <p class="panel__eyebrow">Education</p>
+            <h2 class="panel__title">教育经历</h2>
+            <p class="panel__desc">中传广告学本科，点击展开详情。</p>
+            <p class="panel__hint">👆 点击 + 展开详情</p>
+            <div class="panel-mascot-wrap" aria-hidden="true">
+              <div class="panel-mascot__bubble">
+                <p class="panel-mascot__text" data-bubble-text="广告学本科在读，绩点 3.72，一起看看吧"></p>
+              </div>
+              <div class="panel-mascot panel-mascot--delay">
+                <img src="assets/mascot-books.png" alt="">
+              </div>
+            </div>
+          </header>
+          <div class="fold-list fold-list--accordion">
+            <details class="fold">
+              <summary class="fold__summary">
+                <div>
+                  <div class="fold__top">
+                    <span class="fold__tag">本科</span>
+                    <span class="fold__period">2023.09 — 2027.06</span>
+                  </div>
+                  <h3 class="fold__title">中国传媒大学 · 广告学（擎雅品牌实验班）</h3>
+                  <p class="fold__teaser">GPA 3.72 / 4.0 · 均分 90</p>
+                </div>
+                <span class="fold__arrow">+</span>
+              </summary>
+              <div class="fold__body">
+                <p class="fold__teaser">主修课程：品牌学、整合营销传播、影像制作基础、品牌管理、AI 基础、跨境电商理论与实践等。GPA 3.72/4.0，课程均分 90。</p>
+              </div>
+            </details>
+            <details class="fold fold--coral">
+              <summary class="fold__summary">
+                <div>
+                  <div class="fold__top"><span class="fold__tag fold__tag--coral">2023</span></div>
+                  <h3 class="fold__title">进入中传广告学</h3>
+                  <p class="fold__teaser">开始本科，加入影像组与中外学生协会</p>
+                </div>
+                <span class="fold__arrow">+</span>
+              </summary>
+              <div class="fold__body"><p class="fold__teaser">开启广告学与内容运营方向的系统学习，同时参与校内创意实践。</p></div>
+            </details>
+            <details class="fold fold--sage">
+              <summary class="fold__summary">
+                <div>
+                  <div class="fold__top"><span class="fold__tag fold__tag--sage">2025</span></div>
+                  <h3 class="fold__title">蓝色光标 · 字节远程项目</h3>
+                  <p class="fold__teaser">新媒体运营与 AI 产品内容运营</p>
+                </div>
+                <span class="fold__arrow">+</span>
+              </summary>
+              <div class="fold__body"><p class="fold__teaser">进入互联网广告与 AI 内容运营实战阶段，积累创作者管理与数据复盘经验。</p></div>
+            </details>
+            <details class="fold fold--mustard">
+              <summary class="fold__summary">
+                <div>
+                  <div class="fold__top"><span class="fold__tag fold__tag--mustard">2026</span></div>
+                  <h3 class="fold__title">CSDN 海外内容运营</h3>
+                  <p class="fold__teaser">AI 与开源技术海外创作者矩阵</p>
+                </div>
+                <span class="fold__arrow">+</span>
+              </summary>
+              <div class="fold__body"><p class="fold__teaser">拓展海外社区运营能力，负责 GOSIM 国际大会内容品控。</p></div>
+            </details>
+          </div>
+        </section>
+
+        <!-- 校园 -->
+        <section class="panel" id="campus" data-title="校园经历">
+          <header class="panel__header">
+            <p class="panel__eyebrow">Campus</p>
+            <h2 class="panel__title">校园经历</h2>
+            <p class="panel__desc">校内组织与创意实践，点击展开。</p>
+            <p class="panel__hint">👆 点击 + 展开详情</p>
+            <div class="panel-mascot-wrap" aria-hidden="true">
+              <div class="panel-mascot__bubble">
+                <p class="panel-mascot__text" data-bubble-text="影像创作、协会活动，我的校园足迹在这"></p>
+              </div>
+              <div class="panel-mascot panel-mascot--delay">
+                <img src="assets/mascot-ukulele.png" alt="">
+              </div>
+            </div>
+          </header>
+          <div class="fold-list fold-list--accordion">
+            <details class="fold">
+              <summary class="fold__summary">
+                <div>
+                  <div class="fold__top">
+                    <span class="fold__tag">核心成员</span>
+                    <span class="fold__period">2023.09 — 至今</span>
+                  </div>
+                  <h3 class="fold__title">广告学院创意创作中心（影像组）</h3>
+                  <p class="fold__teaser">校级活动拍摄剪辑 · 读书周宣传片 · 赛事视觉</p>
+                </div>
+                <span class="fold__arrow">+</span>
+              </summary>
+              <div class="fold__body">
+                <div class="reading-week-showcase">
+                  <figure class="reading-week-showcase__item">
+                    <img src="assets/reading-week-2024.png" alt="2024 春季读书周宣传片《珍惜春光 好好做个读书人》">
+                    <figcaption>2024 · 珍惜春光，好好做个读书人</figcaption>
+                  </figure>
+                  <figure class="reading-week-showcase__item">
+                    <img src="assets/reading-week-2025.png" alt="2025 春季读书周宣传片《阅读不止 步履不停》">
+                    <figcaption>2025 · 阅读不止，步履不停</figcaption>
+                  </figure>
+                </div>
+                <ul class="detail-list">
+                  <li>影像拍摄剪辑 · 负责校级活动拍摄及后期，独立完成各类型视频剪辑与调色</li>
+                  <li>宣传片统筹 · 连续两年主导读书周宣传片，2024 导演、2025 总剪辑</li>
+                  <li>赛事视觉 · 为学院奖、大广赛提供视频调色与剪辑支持</li>
+                </ul>
+              </div>
+            </details>
+            <details class="fold fold--coral">
+              <summary class="fold__summary">
+                <div>
+                  <div class="fold__top">
+                    <span class="fold__tag fold__tag--coral">成员</span>
+                    <span class="fold__period">2023.09 — 至今</span>
+                  </div>
+                  <h3 class="fold__title">中外学生协会（宣传组）</h3>
+                  <p class="fold__teaser">大型活动策划 · 国际文化节宣传执行</p>
+                </div>
+                <span class="fold__arrow">+</span>
+              </summary>
+              <div class="fold__body">
+                <p class="detail-subheading">新年联欢晚会宣传物料</p>
+                <div class="siea-showcase">
+                  <div class="siea-showcase__posters">
+                    <figure class="siea-showcase__item">
+                      <img src="assets/siea-gala-2024.png" alt="2024 中外学生新年联欢晚会海报">
+                      <figcaption>2024 · 新年联欢晚会海报</figcaption>
+                    </figure>
+                    <figure class="siea-showcase__item">
+                      <img src="assets/siea-gala-2025.png" alt="2025 中外学生新年联欢晚会海报">
+                      <figcaption>2025 · 新年联欢晚会海报</figcaption>
+                    </figure>
+                  </div>
+                  <figure class="siea-showcase__item siea-showcase__item--wide">
+                    <img src="assets/siea-gala-promo.png" alt="中外学生新年联欢晚会宣传推文">
+                    <figcaption>宣传推文 · 晚会邀请函</figcaption>
+                  </figure>
+                </div>
+                <ul class="detail-list">
+                  <li>活动策划执行 · 参与策划校内外大型活动，负责宣传内容制作与落地资源协调</li>
+                  <li>文化节摊位统筹 · 负责国际文化节 30+ 国家摊位运营，包括选品与现场销售协调</li>
+                </ul>
+              </div>
+            </details>
+          </div>
+          <div class="campus-carousel campus-carousel--panel" aria-label="校园影像足迹">
+            <p class="detail-subheading">校园影像足迹</p>
+            <div class="campus-carousel__viewport">
+              <div class="campus-carousel__track">
+                <figure class="campus-frame campus-frame--wide">
+                  <img src="assets/campus-01-cheer.png" alt="2024 中国传媒大学啦啦操比赛">
+                  <figcaption>啦啦操比赛</figcaption>
+                </figure>
+                <figure class="campus-frame">
+                  <img src="assets/campus-02-gala.png" alt="中外学生新年联欢晚会合影">
+                  <figcaption>新年联欢晚会</figcaption>
+                </figure>
+                <figure class="campus-frame">
+                  <img src="assets/campus-03-paint.png" alt="户外绘画写生活动">
+                  <figcaption>户外写生活动</figcaption>
+                </figure>
+                <figure class="campus-frame">
+                  <img src="assets/campus-04-art.png" alt="选择性上色街拍短片拍摄">
+                  <figcaption>短片拍摄现场</figcaption>
+                </figure>
+                <figure class="campus-frame">
+                  <img src="assets/campus-05-mun.png" alt="CUCMUNC 2024 模联开幕式">
+                  <figcaption>模联 · 开幕式前</figcaption>
+                </figure>
+                <figure class="campus-frame">
+                  <img src="assets/campus-06-shoot.png" alt="索尼摄像机校园拍摄">
+                  <figcaption>索尼摄制组</figcaption>
+                </figure>
+                <figure class="campus-frame">
+                  <img src="assets/campus-07-live.png" alt="晚会现场 MacBook 修图">
+                  <figcaption>晚会现场修图</figcaption>
+                </figure>
+                <figure class="campus-frame">
+                  <img src="assets/campus-08-hall.png" alt="礼堂活动拍摄">
+                  <figcaption>礼堂活动拍摄</figcaption>
+                </figure>
+                <figure class="campus-frame">
+                  <img src="assets/campus-09-papa.png" alt="PAPA AWARDS 合影">
+                  <figcaption>PAPA AWARDS</figcaption>
+                </figure>
+                <figure class="campus-frame">
+                  <img src="assets/campus-10-set.png" alt="工地纪实拍摄监视器画面">
+                  <figcaption>工地纪实拍摄</figcaption>
+                </figure>
+                <figure class="campus-frame">
+                  <img src="assets/campus-12-work.png" alt="路边用笔记本剪辑">
+                  <figcaption>路边剪辑作业</figcaption>
+                </figure>
+                <figure class="campus-frame campus-frame--wide" aria-hidden="true">
+                  <img src="assets/campus-01-cheer.png" alt="">
+                  <figcaption>啦啦操比赛</figcaption>
+                </figure>
+                <figure class="campus-frame" aria-hidden="true">
+                  <img src="assets/campus-02-gala.png" alt="">
+                  <figcaption>新年联欢晚会</figcaption>
+                </figure>
+                <figure class="campus-frame" aria-hidden="true">
+                  <img src="assets/campus-03-paint.png" alt="">
+                  <figcaption>户外写生活动</figcaption>
+                </figure>
+                <figure class="campus-frame" aria-hidden="true">
+                  <img src="assets/campus-04-art.png" alt="">
+                  <figcaption>短片拍摄现场</figcaption>
+                </figure>
+                <figure class="campus-frame" aria-hidden="true">
+                  <img src="assets/campus-05-mun.png" alt="">
+                  <figcaption>模联 · 开幕式前</figcaption>
+                </figure>
+                <figure class="campus-frame" aria-hidden="true">
+                  <img src="assets/campus-06-shoot.png" alt="">
+                  <figcaption>索尼摄制组</figcaption>
+                </figure>
+                <figure class="campus-frame" aria-hidden="true">
+                  <img src="assets/campus-07-live.png" alt="">
+                  <figcaption>晚会现场修图</figcaption>
+                </figure>
+                <figure class="campus-frame" aria-hidden="true">
+                  <img src="assets/campus-08-hall.png" alt="">
+                  <figcaption>礼堂活动拍摄</figcaption>
+                </figure>
+                <figure class="campus-frame" aria-hidden="true">
+                  <img src="assets/campus-09-papa.png" alt="">
+                  <figcaption>PAPA AWARDS</figcaption>
+                </figure>
+                <figure class="campus-frame" aria-hidden="true">
+                  <img src="assets/campus-10-set.png" alt="">
+                  <figcaption>工地纪实拍摄</figcaption>
+                </figure>
+                <figure class="campus-frame" aria-hidden="true">
+                  <img src="assets/campus-12-work.png" alt="">
+                  <figcaption>路边剪辑作业</figcaption>
+                </figure>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- 经历 -->
+        <section class="panel" id="projects" data-title="项目与实习">
+          <header class="panel__header">
+            <p class="panel__eyebrow">Experience</p>
+            <h2 class="panel__title">项目与实习</h2>
+            <p class="panel__desc">每条只显示简介，点击 + 查看完整内容。</p>
+            <p class="panel__hint">👆 点击 + 展开详情</p>
+            <div class="panel-mascot-wrap" aria-hidden="true">
+              <div class="panel-mascot__bubble">
+                <p class="panel-mascot__text" data-bubble-text="字节、CSDN、蓝色光标，实习细节在这"></p>
+              </div>
+              <div class="panel-mascot panel-mascot--delay">
+                <img src="assets/mascot-camera.png" alt="">
+              </div>
+            </div>
+          </header>
+
+          <p class="group-label">实习经历</p>
+          <div class="fold-list fold-list--accordion">
+            <details class="fold">
+              <summary class="fold__summary">
+                <div>
+                  <div class="fold__top"><span class="fold__tag">远程项目</span><span class="fold__period">2025.11 — 2026.06</span></div>
+                  <h3 class="fold__title">字节跳动 · 火山引擎 AI 产品内容运营</h3>
+                  <p class="fold__teaser">AI 创作者生态调研 · 小云雀内容策划 · 粉丝 2w+</p>
+                </div>
+                <span class="fold__arrow">+</span>
+              </summary>
+              <div class="fold__body">
+                <div class="platform-showcase platform-showcase--portrait">
+                  <div class="platform-showcase__group">
+                    <p class="platform-showcase__label platform-showcase__label--douyin">抖音</p>
+                    <div class="platform-showcase__grid">
+                      <figure class="project-showcase__item">
+                        <img src="assets/bytedance-douyin-1.png" alt="小云雀 AI 抖音能力展示内容">
+                        <figcaption>小云雀能力展示</figcaption>
+                      </figure>
+                      <figure class="project-showcase__item">
+                        <img src="assets/bytedance-douyin-2.png" alt="小云雀 AI 抖音有钱花创意内容">
+                        <figcaption>2026 有钱花 AI 创意</figcaption>
+                      </figure>
+                    </div>
+                  </div>
+                  <div class="platform-showcase__group">
+                    <p class="platform-showcase__label platform-showcase__label--xhs">小红书</p>
+                    <div class="platform-showcase__grid platform-showcase__grid--xhs">
+                      <figure class="project-showcase__item">
+                        <img src="assets/bytedance-xhs-1.png" alt="小云雀 AI 小红书创意笔记">
+                        <figcaption>暂停挑战创意笔记</figcaption>
+                      </figure>
+                      <figure class="project-showcase__item">
+                        <img src="assets/bytedance-xhs-2.png" alt="小云雀 AI 小红书笔记矩阵">
+                        <figcaption>小云雀内容矩阵</figcaption>
+                      </figure>
+                    </div>
+                  </div>
+                </div>
+                <ul class="detail-list">
+                  <li>AI 创作者生态调研 · 开展 AI 创作领域内容生态调研，形成竞品内容图谱，为 AI 工具运营提供依据</li>
+                  <li>创作者筛选与社群对接 · 制定 AI 相关创作者准入标准，依据内容质量、专业度与契合度完成筛选入驻</li>
+                  <li>AI 工具场景策划与内容运营 · 参与策划「小云雀」AI 工具内容案例，将 AI 能力转化为用户可感知的使用场景</li>
+                  <li>数据复盘与迭代闭环 · 追踪创作者内容表现（播放、互动、转化），输出复盘报告识别短板并优化策略</li>
+                </ul>
+                <p class="result">✦ 推动 AI 内容账号粉丝增长 2 万+；「小云雀」AI 工具内容实现稳定跨平台传播</p>
+              </div>
+            </details>
+            <details class="fold fold--coral">
+              <summary class="fold__summary">
+                <div>
+                  <div class="fold__top"><span class="fold__tag fold__tag--coral">实习</span><span class="fold__period">2026.02 — 2026.06</span></div>
+                  <h3 class="fold__title">CSDN · 海外内容运营</h3>
+                  <p class="fold__teaser">海外创作者矩阵 · GOSIM 大会 · 粉丝 +2k</p>
+                </div>
+                <span class="fold__arrow">+</span>
+              </summary>
+              <div class="fold__body">
+                <div class="platform-showcase">
+                  <div class="platform-showcase__group">
+                    <p class="platform-showcase__label platform-showcase__label--gosim">GOSIM 大会内容</p>
+                    <div class="platform-showcase__grid">
+                      <figure class="project-showcase__item">
+                        <img src="assets/csdn-gosim-wechat.png" alt="GOSIM 开源创新汇公众号推文后台">
+                        <figcaption>公众号 · GOSIM 开源创新汇推文</figcaption>
+                      </figure>
+                      <figure class="project-showcase__item">
+                        <img src="assets/csdn-gosim-podcast.png" alt="GOSIM 全球开源创新汇小宇宙播客">
+                        <figcaption>小宇宙 · 全球开源创新汇播客</figcaption>
+                      </figure>
+                    </div>
+                  </div>
+                  <div class="platform-showcase__group">
+                    <p class="platform-showcase__label platform-showcase__label--x">独立策划 · X 推文</p>
+                    <div class="platform-showcase__grid platform-showcase__grid--triple">
+                      <figure class="project-showcase__item">
+                        <img src="assets/csdn-x-1.png" alt="FlagOS Operator Challenge X 推文数据">
+                        <figcaption>Operator Challenge · 1,234 曝光</figcaption>
+                      </figure>
+                      <figure class="project-showcase__item">
+                        <img src="assets/csdn-x-2.png" alt="Beijing AI Congress Workshop X 推文数据">
+                        <figcaption>Workshop 门票 · 1,074 曝光</figcaption>
+                      </figure>
+                      <figure class="project-showcase__item">
+                        <img src="assets/csdn-x-3.png" alt="FlagOS S1 Winners X 推文数据">
+                        <figcaption>S1 获奖公布 · 4,998 曝光</figcaption>
+                      </figure>
+                    </div>
+                  </div>
+                  <div class="platform-showcase__group">
+                    <p class="platform-showcase__label platform-showcase__label--slack">Slack 社群推广</p>
+                    <div class="platform-showcase__grid platform-showcase__grid--single">
+                      <figure class="project-showcase__item">
+                        <img src="assets/csdn-slack.png" alt="FlagOS Slack 社群 S1 赛季获奖公告">
+                        <figcaption>FlagOS 社群 · S1 赛季获奖官方公告</figcaption>
+                      </figure>
+                    </div>
+                  </div>
+                </div>
+                <ul class="detail-list">
+                  <li>AI 创作者社群运营 · 运营 AI、开源技术方向海外创作者矩阵（Twitter/X、YouTube、LinkedIn），参与选题策划与内容分发</li>
+                  <li>内容审核与品质把控 · 负责 GOSIM 国际开源大会讲者内容与呈现品质把控</li>
+                  <li>数据驱动运营迭代 · 追踪平台核心指标，优化内容策略，将社区流量转化为可执行运营方案</li>
+                  <li>跨职能项目协同 · 深度参与 GOSIM 国际大会全流程，协调讲者、内容与运营多方资源</li>
+                </ul>
+                <p class="result">✦ 推动海外跨平台粉丝增长 2000+；GOSIM 国际大会顺利举办</p>
+              </div>
+            </details>
+            <details class="fold fold--sage">
+              <summary class="fold__summary">
+                <div>
+                  <div class="fold__top"><span class="fold__tag fold__tag--sage">实习</span><span class="fold__period">2025.09 — 2025.12</span></div>
+                  <h3 class="fold__title">蓝色光标 · 新媒体与内容运营</h3>
+                  <p class="fold__teaser">40+ 创作者全流程 · 平均播放 1 万+</p>
+                </div>
+                <span class="fold__arrow">+</span>
+              </summary>
+              <div class="fold__body">
+                <p class="creator-grid__label">合作达人视频 · 联想 moto</p>
+                <div class="creator-grid">
+                  <figure class="creator-grid__item">
+                    <img src="assets/bluefocus-1.png" alt="@小新数码评测 moto X70 Air 上手体验">
+                    <figcaption>@小新数码评测</figcaption>
+                  </figure>
+                  <figure class="creator-grid__item">
+                    <img src="assets/bluefocus-2.png" alt="@疯狂小杨Sir moto X70 Air">
+                    <figcaption>@疯狂小杨Sir</figcaption>
+                  </figure>
+                  <figure class="creator-grid__item">
+                    <img src="assets/bluefocus-3.png" alt="@涛哥爱拆机 moto X70 Air 拆机">
+                    <figcaption>@涛哥爱拆机</figcaption>
+                  </figure>
+                  <figure class="creator-grid__item">
+                    <img src="assets/bluefocus-4.png" alt="@阿J叫Jason 超薄 Air 对比">
+                    <figcaption>@阿J叫Jason</figcaption>
+                  </figure>
+                  <figure class="creator-grid__item">
+                    <img src="assets/bluefocus-5.png" alt="@良心评测 moto X70 Air">
+                    <figcaption>@良心评测</figcaption>
+                  </figure>
+                  <figure class="creator-grid__item">
+                    <img src="assets/bluefocus-6.png" alt="@小露娜测评 moto X70 Air">
+                    <figcaption>@小露娜测评</figcaption>
+                  </figure>
+                  <figure class="creator-grid__item">
+                    <img src="assets/bluefocus-7.png" alt="@西梅的科技生活 razr 60 礼盒">
+                    <figcaption>@西梅的科技生活</figcaption>
+                  </figure>
+                  <figure class="creator-grid__item">
+                    <img src="assets/bluefocus-8.png" alt="@zz的数码开心日记 手机测评">
+                    <figcaption>@zz的数码开心日记</figcaption>
+                  </figure>
+                  <figure class="creator-grid__item">
+                    <img src="assets/bluefocus-9.png" alt="@zz的数码开心日记 moto X70 Air 厚度">
+                    <figcaption>@zz的数码开心日记</figcaption>
+                  </figure>
+                </div>
+                <ul class="detail-list">
+                  <li>创作者全流程管理 · 跟进 40+ 内容创作者，从脚本审核到成片交付，保障内容产出质量</li>
+                  <li>多任务协同排期 · 依据增长目标制定内容排期，协调创作者、设计、运营多方保障按时交付</li>
+                </ul>
+                <p class="result">✦ 合作内容平均播放量达 1 万+；形成从筛选到内容质检的一套可复用实战经验</p>
+              </div>
+            </details>
+            <details class="fold fold--mustard">
+              <summary class="fold__summary">
+                <div>
+                  <div class="fold__top"><span class="fold__tag fold__tag--mustard">实习</span><span class="fold__period">2025.07 — 2025.09</span></div>
+                  <h3 class="fold__title">虎嗅 · 运营实习生</h3>
+                  <p class="fold__teaser">媒体矩阵 · 私域社群 · 广告素材上线</p>
+                </div>
+                <span class="fold__arrow">+</span>
+              </summary>
+              <div class="fold__body">
+                <div class="platform-showcase">
+                  <div class="platform-showcase__group">
+                    <p class="platform-showcase__label platform-showcase__label--huxiu">运营账号</p>
+                    <div class="platform-showcase__grid platform-showcase__grid--accounts">
+                      <figure class="project-showcase__item">
+                        <img src="assets/huxiu-account-zhiku.png" alt="虎嗅智库服务公众号">
+                        <figcaption>虎嗅智库服务 · 公众号</figcaption>
+                      </figure>
+                      <figure class="project-showcase__item">
+                        <img src="assets/huxiu-account-app.png" alt="虎嗅 APP 视频号">
+                        <figcaption>虎嗅 APP · 视频号</figcaption>
+                      </figure>
+                    </div>
+                  </div>
+                  <div class="platform-showcase__group">
+                    <p class="platform-showcase__label platform-showcase__label--huxiu">内容产出</p>
+                    <div class="platform-showcase__grid platform-showcase__grid--single">
+                      <figure class="project-showcase__item">
+                        <img src="assets/huxiu-article-ai.png" alt="生成式 AI 落地大事件栏目文章">
+                        <figcaption>《生成式 AI 落地大事件》· 编辑：崔奡楠</figcaption>
+                      </figure>
+                    </div>
+                  </div>
+                </div>
+                <ul class="detail-list">
+                  <li>媒体矩阵维护 · 协助日常内容发布，管理用户评论与反馈，维护媒体矩阵更新节奏</li>
+                  <li>社群运营推广 · 协助私域社群日常维护，策划活动推广内容，参与用户拉新</li>
+                  <li>广告素材上线 · 负责广告素材上传、配置与投放全流程，监控投放状态并排查异常</li>
+                  <li>内容数据整理 · 收集原创稿件评级数据并组织统计，支持内容质量评估结果公示</li>
+                </ul>
+                <p class="result">✦ 参与私域用户运营，任期内实现用户增长 300+</p>
+              </div>
+            </details>
+          </div>
+
+          <p class="group-label">项目经历</p>
+          <div class="fold-list fold-list--accordion">
+            <details class="fold">
+              <summary class="fold__summary">
+                <div>
+                  <div class="fold__top"><span class="fold__tag">研究负责人</span><span class="fold__period">2025.07 — 2026.02</span></div>
+                  <h3 class="fold__title">德国企业调研与跨文化品牌研究</h3>
+                  <p class="fold__teaser">大众 & 拜尔斯道夫 · 跨文化营销传播论文 · 德国研学</p>
+                </div>
+                <span class="fold__arrow">+</span>
+              </summary>
+              <div class="fold__body">
+                <p class="project-paper-title">「德国制造」融入「中国叙事」——大众与拜尔斯道夫的跨文化营销传播策略</p>
+                <div class="project-showcase">
+                  <figure class="project-showcase__item project-showcase__item--left">
+                    <img src="assets/germany-paper-abstract.png" alt="德国企业调研研究摘要">
+                    <figcaption>研究摘要 · 中传 23 级擎雅品牌实验班德国研学成果</figcaption>
+                  </figure>
+                  <figure class="project-showcase__item project-showcase__item--right">
+                    <img src="assets/germany-market-guide.png" alt="MARKET GUIDE 内刊中德品牌专题">
+                    <figcaption>MARKET GUIDE 内刊 · 中德品牌：跨文化共生</figcaption>
+                  </figure>
+                </div>
+                <ul class="detail-list">
+                  <li>项目介绍 · 赴德国实地调研，走访大众汽车、拜尔斯道夫等企业，系统研究「德国制造」在中国市场的本土化传播机制</li>
+                  <li>实地调研访谈 · 走访两家德国企业，了解品牌定位、产品策略与市场运作逻辑，采集一手数据</li>
+                  <li>跨文化传播分析 · 运用文献分析、实地调研与案例比较，从品牌发展路径、市场定位、传播策略三维度分析德国品牌在华叙事转化</li>
+                  <li>核心发现 · 大众建立「技术信誉 + 情感联结」双叙事模型；拜尔斯道夫通过品牌符号与营销内容融合实现符号价值转化</li>
+                  <li>研究成果撰写 · 合著论文《Integrating "Made in Germany" into "Chinese Narrative"—Cross-cultural Marketing Communication Strategies》，丰富跨文化语境下叙事品牌理论</li>
+                </ul>
+                <div class="project-keywords">
+                  <span class="tag">德国品牌</span>
+                  <span class="tag">中国叙事</span>
+                  <span class="tag">跨文化营销传播</span>
+                  <span class="tag">大众</span>
+                  <span class="tag">拜尔斯道夫</span>
+                </div>
+              </div>
+            </details>
+            <details class="fold fold--coral">
+              <summary class="fold__summary">
+                <div>
+                  <div class="fold__top"><span class="fold__tag fold__tag--coral">项目负责人</span><span class="fold__period">2025.05 — 至今</span></div>
+                  <h3 class="fold__title">品牌学科研创新项目</h3>
+                  <p class="fold__teaser">中国科技品牌叙事策略研究 · 青年培育项目 · 已结项</p>
+                </div>
+                <span class="fold__arrow">+</span>
+              </summary>
+              <div class="fold__body">
+                <p class="project-paper-title">中国科技品牌的科技叙事策略研究 · 项目编号 BYQN25003 · 资助 5000 元</p>
+                <div class="project-showcase">
+                  <figure class="project-showcase__item project-showcase__item--left">
+                    <img src="assets/brand-project-approval.png" alt="品牌学科研创新项目立项通知书">
+                    <figcaption>立项通知书 · 2025 年 5 月 1 日 — 2026 年 4 月 30 日</figcaption>
+                  </figure>
+                  <figure class="project-showcase__item project-showcase__item--right project-showcase__item--cert">
+                    <img src="assets/brand-project-certificate.png" alt="品牌学科研创新项目结项证书">
+                    <figcaption>结项证书 · 2026 年 4 月 · 广告与品牌学院</figcaption>
+                  </figure>
+                </div>
+                <ul class="detail-list">
+                  <li>项目介绍 · 主导「中国科技品牌的科技叙事策略研究」项目，从立项答辩到研究推进全程负责，通过广告学院评审</li>
+                  <li>跨专业团队统筹 · 协调谭惠文、童婉乔、尹艺涵等跨专业成员，组织选题研讨、任务分解，推动项目按计划推进</li>
+                  <li>学术框架迭代 · 联合指导教师刘志一完成 4 版立项书迭代，持续优化研究框架，明确研究方向</li>
+                  <li>文献模型建构 · 主导文献分析与模型建构，梳理科技品牌叙事策略逻辑，形成研究核心框架</li>
+                  <li>预期成果 · 发表专业学术论文 1 篇、提交具有实践价值的研究报告，突出成果创新性与应用价值</li>
+                </ul>
+                <p class="result">✦ 成功通过广告学院答辩评审并完成结项，获「中国科技品牌的科技叙事策略研究」结项证书</p>
+                <div class="project-keywords">
+                  <span class="tag">青年培育项目</span>
+                  <span class="tag">科技品牌</span>
+                  <span class="tag">叙事策略</span>
+                  <span class="tag">BYQN25003</span>
+                </div>
+              </div>
+            </details>
+            <details class="fold fold--sage">
+              <summary class="fold__summary">
+                <div>
+                  <div class="fold__top"><span class="fold__tag fold__tag--sage">运营负责人</span><span class="fold__period">2024.09 — 2025.06</span></div>
+                  <h3 class="fold__title">国际文化节摊位运营</h3>
+                  <p class="fold__teaser">30+ 国家摊位选品 · 现场销售执行</p>
+                </div>
+                <span class="fold__arrow">+</span>
+              </summary>
+              <div class="fold__body">
+                <div class="project-showcase">
+                  <figure class="project-showcase__item project-showcase__item--left">
+                    <img src="assets/festival-parade.png" alt="国际文化节 SIEA 游行">
+                    <figcaption>SIEA 国际学生交流协会 · 多国旗帜游行</figcaption>
+                  </figure>
+                  <figure class="project-showcase__item project-showcase__item--right">
+                    <img src="assets/festival-stalls.png" alt="国际文化节摊位现场">
+                    <figcaption>中传图书馆前 · 30+ 国家摊位现场运营</figcaption>
+                  </figure>
+                </div>
+                <ul class="detail-list">
+                  <li>项目介绍 · 参与中外学生协会国际文化节摊位运营，统筹 30+ 国家摊位的选品设计与现场销售执行</li>
+                  <li>选品结构设计 · 结合 30+ 国家文化特色与受众偏好完成选品，优先选择易决策商品，提升现场成交率</li>
+                  <li>定价转化策略 · 结合成本与现场竞品制定定价方案，根据销售反馈实时调整推荐重点，优化转化</li>
+                  <li>现场运营协同 · 负责销售分工，协调中外学生沟通，优化活动陈列动线，提升用户停留与转化</li>
+                </ul>
+                <p class="result">✦ 通过陈列动线优化与话术调整，摊位现场转化效率明显提升，活动顺利完成</p>
+              </div>
+            </details>
+            <details class="fold fold--mustard">
+              <summary class="fold__summary">
+                <div>
+                  <div class="fold__top"><span class="fold__tag fold__tag--mustard">独立运营</span><span class="fold__period">2024.06 — 2024.08</span></div>
+                  <h3 class="fold__title">跨境电商选品销售项目</h3>
+                  <p class="fold__teaser">新西兰饰品跨境 · 盈利率 200%</p>
+                </div>
+                <span class="fold__arrow">+</span>
+              </summary>
+              <div class="fold__body">
+                <ul class="detail-list">
+                  <li>项目介绍 · 独立开展新西兰饰品类商品跨境销售，完成从市场调研、选品采购、定价到销售的完整闭环</li>
+                  <li>市场调研选品 · 调研新西兰本地饰品市场需求，分析价格区间与款式偏好，筛选高毛利潜力 SKU</li>
+                  <li>供应链成本控制 · 在拼多多等多平台对比供应商质量与报价，完成采购决策，控制进货与物流成本</li>
+                  <li>定价策略制定 · 结合目标市场消费能力与竞品定价，制定差异化价格策略，实现利润平衡</li>
+                </ul>
+                <p class="result">✦ 完成多笔订单成交，实现正向盈利，盈利率达 200%，验证跨境选品定价逻辑的可行性</p>
+              </div>
+            </details>
+            <details class="fold">
+              <summary class="fold__summary">
+                <div>
+                  <div class="fold__top"><span class="fold__tag">撰稿人</span><span class="fold__period">2023.11 — 至今</span></div>
+                  <h3 class="fold__title">「广告爱 AI」公众号运营</h3>
+                  <p class="fold__teaser">AI 营销趋势 · 论文评述 · 深度访谈</p>
+                </div>
+                <span class="fold__arrow">+</span>
+              </summary>
+              <div class="fold__body">
+                <div class="project-showcase project-showcase--triple">
+                  <figure class="project-showcase__item">
+                    <img src="assets/ad-ai-rtb.png" alt="论文评述：基于强化学习的实时竞价在展示广告中的应用">
+                    <figcaption>论文评述 · 强化学习实时竞价</figcaption>
+                  </figure>
+                  <figure class="project-showcase__item">
+                    <img src="assets/ad-ai-chatgpt.png" alt="ChatGPT 与生成式 AI 在广告业的悖论">
+                    <figcaption>论文推荐 · 生成式 AI 广告业悖论</figcaption>
+                  </figure>
+                  <figure class="project-showcase__item">
+                    <img src="assets/ad-ai-interview.png" alt="深度访谈：生成式 AI 如何改变数字广告">
+                    <figcaption>深度访谈 · Taboola CEO 谈 AI 广告</figcaption>
+                  </figure>
+                </div>
+                <ul class="detail-list">
+                  <li>项目介绍 · 在「广告爱 AI」公众号长期输出 AI 营销趋势、AIGC 案例分析内容，形成稳定的知识类内容产出</li>
+                  <li>内容选题策划 · 聚焦 AI 营销应用与工具落地场景，结合行业动态设计选题，保持稳定输出频率</li>
+                  <li>深度内容创作 · 撰写《论文评述 | 基于强化学习的实时竞价在展示广告中的应用》等多篇深度分析文章</li>
+                  <li>文献检索整合 · 检索专业文献，提炼行业信息，将学术内容转化为可读性强的深度科普内容</li>
+                </ul>
+                <p class="result">✦ 多篇 AI 营销分析文章单篇阅读量均破千，建立稳定的 AI 知识类内容输出体系</p>
+              </div>
+            </details>
+            <details class="fold fold--coral">
+              <summary class="fold__summary">
+                <div>
+                  <div class="fold__top"><span class="fold__tag fold__tag--coral">总导演 / 总剪辑</span><span class="fold__period">2023.11 — 至今</span></div>
+                  <h3 class="fold__title">学院读书周宣传片制作</h3>
+                  <p class="fold__teaser">连续两年主导 · 播放量破万</p>
+                </div>
+                <span class="fold__arrow">+</span>
+              </summary>
+              <div class="fold__body">
+                <div class="reading-week-showcase">
+                  <figure class="reading-week-showcase__item">
+                    <img src="assets/reading-week-2024.png" alt="2024 春季读书周宣传片《珍惜春光 好好做个读书人》">
+                    <figcaption>2024 · 导演 · 珍惜春光，好好做个读书人</figcaption>
+                  </figure>
+                  <figure class="reading-week-showcase__item">
+                    <img src="assets/reading-week-2025.png" alt="2025 春季读书周宣传片《阅读不止 步履不停》">
+                    <figcaption>2025 · 总剪辑 · 阅读不止，步履不停</figcaption>
+                  </figure>
+                </div>
+                <ul class="detail-list">
+                  <li>项目介绍 · 连续两年主导广告学院读书周宣传片创作，承担从前期策划、现场导演到后期剪辑的全流程制作</li>
+                  <li>宣传片导演执行 · 2024 年在学院院长参与的复杂拍摄条件下担任导演，统筹拍摄并完成全流程剪辑</li>
+                  <li>活动影像统筹 · 完成 10+ 场校级活动拍摄及后期制作，涵盖新生晚会、校庆典礼等多类型场景</li>
+                  <li>赛事内容支持 · 参与学院奖、大广赛等赛事，为作品提供视频调色与剪辑支持，提升视觉表现力</li>
+                </ul>
+                <p class="result">✦ 宣传片播放量破万，点赞转发量 500+；校级活动影像传播量破万</p>
+              </div>
+            </details>
+            <details class="fold fold--sage">
+              <summary class="fold__summary">
+                <div>
+                  <div class="fold__top"><span class="fold__tag fold__tag--sage">运营实习生</span><span class="fold__period">2023.11 — 2024.04</span></div>
+                  <h3 class="fold__title">校园即时零售运营项目</h3>
+                  <p class="fold__teaser">校园零售平台 · 服务 600+ 学生</p>
+                </div>
+                <span class="fold__arrow">+</span>
+              </summary>
+              <div class="fold__body">
+                <ul class="detail-list">
+                  <li>项目介绍 · 参与校园即时零售平台搭建，负责商家引入、商品结构设计、订单履约管理全流程工作</li>
+                  <li>商家筛选引入 · 参与早餐商家筛选与入驻沟通，基于品类丰富度、价格区间、供给稳定性综合评估</li>
+                  <li>用户需求分析 · 分析同学下单偏好与高频品类，识别核心需求场景，设计优惠策略提升下单率</li>
+                  <li>订单履约管理 · 参与订单分发与配送流程，协调商家与配送环节，减少履约延迟与订单异常</li>
+                  <li>推广增长运营 · 通过线下宣传与用户触达提升小程序使用率，跟踪订单数据优化推广策略</li>
+                </ul>
+                <p class="result">✦ 目前服务两栋寝室楼 600+ 名学生，早餐时段订单量显著提升，验证校园「刚需场景」运营模式</p>
+              </div>
+            </details>
+          </div>
+        </section>
+
+        <!-- 联系 -->
+        <section class="panel" id="contact" data-title="联系方式">
+          <header class="panel__header">
+            <p class="panel__eyebrow">Contact</p>
+            <h2 class="panel__title">联系方式</h2>
+            <p class="panel__desc">欢迎交流合作 ✉</p>
+          </header>
+          <div class="deco-row"><span class="deco-row__line"></span>✦<span class="deco-row__line"></span></div>
+          <div class="contact-list">
+            <div class="contact-card">
+              <div>
+                <p class="contact-card__label">邮箱</p>
+                <p class="contact-card__value"><a href="mailto:3425677079@qq.com">3425677079@qq.com</a></p>
+              </div>
+              <span class="contact-card__icon">✉</span>
+            </div>
+            <div class="contact-card">
+              <div>
+                <p class="contact-card__label">电话</p>
+                <p class="contact-card__value"><a href="tel:15826609528">158 2660 9528</a></p>
+              </div>
+              <span class="contact-card__icon">☎</span>
+            </div>
+            <div class="contact-card">
+              <div>
+                <p class="contact-card__label">所在地</p>
+                <p class="contact-card__value">北京</p>
+              </div>
+              <span class="contact-card__icon">📍</span>
+            </div>
+          </div>
+          <div class="panel-mascot-wrap panel-mascot-wrap--contact" aria-hidden="true">
+            <div class="panel-mascot__bubble">
+              <p class="panel-mascot__text" data-bubble-text="合作交流都欢迎，随时联系我聊一聊"></p>
+            </div>
+            <div class="panel-mascot">
+              <img src="assets/mascot-flowers.png" alt="">
+            </div>
+          </div>
+        </section>
+
+      </div>
+    </div>
+  </div>
+
+  <script src="js/main.js?v=23"></script>
+</body>
+</html>
