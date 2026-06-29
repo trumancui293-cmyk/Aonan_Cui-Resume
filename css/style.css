@@ -766,37 +766,32 @@ button { font: inherit; cursor: pointer; border: none; background: none; }
 .home-strengths__list {
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 10px;
   list-style: none;
-  counter-reset: home-strength;
 }
 
 .home-strengths__list li {
   position: relative;
-  padding-left: 20px;
-  font-size: 0.78rem;
-  line-height: 1.58;
+  padding-left: 14px;
+  font-size: 0.76rem;
+  line-height: 1.62;
   color: var(--ink-soft);
 }
 
 .home-strengths__list li::before {
-  counter-increment: home-strength;
-  content: counter(home-strength);
+  content: "";
   position: absolute;
   left: 0;
-  top: 0.1em;
-  width: 14px;
-  height: 14px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 0.58rem;
+  top: 0.62em;
+  width: 5px;
+  height: 5px;
+  background: rgba(28, 28, 28, 0.35);
+  border-radius: 50%;
+}
+
+.home-strengths__list li strong {
   font-weight: var(--fw-medium);
   color: var(--ink);
-  background: var(--mustard-light);
-  border: 1.5px solid rgba(28, 28, 28, 0.2);
-  border-radius: 50%;
-  line-height: 1;
 }
 
 @keyframes mascotFloat {

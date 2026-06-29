@@ -1,6 +1,6 @@
 # Aonan_Cui-Resume
 
-崔奡楠（Aonan Cui）个人在线简历 · 中国传媒大学广告学 · AI 内容运营
+崔奡楠（Aonan Cui）个人在线简历 · 中国传媒大学广告学 · AIGC内容、影视制作
 
 ## 在线访问
 
