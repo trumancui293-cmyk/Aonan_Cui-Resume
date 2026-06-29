@@ -3,6 +3,13 @@ set -euo pipefail
 
 cd "$(dirname "$0")"
 REPO_NAME="Aonan_Cui-Resume"
+GITHUB_USER="${GITHUB_USER:-trumancui293-cmyk}"
+
+# 若默认 gh 配置目录不可写，改用项目内目录
+if [ ! -d "${HOME}/.config/gh" ] && [ ! -w "${HOME}/.config" ] 2>/dev/null; then
+  export GH_CONFIG_DIR="$(pwd)/.gh-config"
+  mkdir -p "${GH_CONFIG_DIR}"
+fi
 
 if ! command -v gh >/dev/null 2>&1; then
   echo "请先安装 GitHub CLI：brew install gh"
@@ -10,11 +17,12 @@ if ! command -v gh >/dev/null 2>&1; then
 fi
 
 if ! gh auth status >/dev/null 2>&1; then
-  echo "请先登录 GitHub：gh auth login"
+  echo "请先登录 GitHub："
+  echo "  GH_CONFIG_DIR=\"$(pwd)/.gh-config\" gh auth login"
   exit 1
 fi
 
-USERNAME="$(gh api user -q .login)"
+USERNAME="$(gh api user -q .login 2>/dev/null || echo "${GITHUB_USER}")"
 REMOTE="https://github.com/${USERNAME}/${REPO_NAME}.git"
 PAGES_URL="https://${USERNAME}.github.io/${REPO_NAME}/"
 
